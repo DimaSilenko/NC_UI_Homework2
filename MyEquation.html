@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Equation</title>
+    <link rel="stylesheet" href="MyStyle.css">
+  </head>
+  <body>
+    <section>
+      <h1>Решение квадратного уравнения</h1>
+      <div class="parameters">
+      <h2>A*x<sup>2</sup> + B*x + C; где A, B, C - произвольные числа. В общем случае A != 0</h2>
+      <form class="" action="index.html" method="post">
+          <input type="number" id="A" placeholder="A"> x<sup>2</sup> +
+          <input type="number" id="B" placeholder="B"> x +
+          <input type="number" id="C" placeholder="C"> = 0;
+          <br><br><input type="button" value="Вычислить корни" onclick="find();">
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <div id="answer">
+        <h3>Ответ:</h3>
+        <table id="result">
+          <tr class="firstLine">
+            <th>№</th>
+            <th>Время</th>
+            <th>Корни уравнения</th>
+            <th>Дискриминант</th>
+          </tr>
+          <tbody id="t">
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="Script.js"></script>
+  </body>
+</html>
