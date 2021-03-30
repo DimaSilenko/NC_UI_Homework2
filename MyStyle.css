@@ -4,10 +4,6 @@ html {
   --secondary-color: #333333;
 }
 
-#answer {
-  display: none;
-}
-
 body {
   text-align: center;
 }
@@ -35,8 +31,20 @@ section {
   position: relative;
 }
 
+.shadow {
+  display: none;
+}
+
 .parameters {
   margin-bottom: 2em;
+}
+
+.white {
+  background: #fff;
+}
+
+.grey {
+  background: #efefef;
 }
 
 table {
